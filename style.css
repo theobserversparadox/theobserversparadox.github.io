@@ -20,3 +20,13 @@ a {
 footer {
     font-size: 14px;
 }
+
+/* Blog Cards */
+#blog .card {
+    border: 1px solid #222;
+    transition: transform 0.2s ease-in-out;
+}
+#blog .card:hover {
+    transform: translateY(-5px);
+    border-color: #0af;
+}
